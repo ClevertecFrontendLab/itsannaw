@@ -1,0 +1,12 @@
+.layout {
+    background-image: url(/public/main-page/page_light.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+.siteLayout {
+    background-color: transparent;
+}

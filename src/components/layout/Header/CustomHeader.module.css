@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F5FF;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+.headerMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 8px;
+}
+
+.headerMainButtons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

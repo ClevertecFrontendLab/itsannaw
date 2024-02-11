@@ -1,0 +1,81 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 42px;
+    gap: 24px;
+}
+
+.card {
+    padding: 24px;
+    background-color: #FFF;
+    max-width: 752px;
+    width: 100%;
+}
+
+.card h6 {
+    color: var(--geekblue-9);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardsActions {
+    display: flex;
+    gap: 16px;
+}
+
+.miniCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    max-width: 240px;
+    width: 100%;
+}
+
+.textMiniCard {
+    text-align: center;
+    max-width: 240px;
+    width: 100%;
+    padding: 12px 24px;
+    border-bottom: solid 1px #F0F0F0;
+
+}
+
+.contentButton {
+    padding: 12px;
+}
+
+/* buttom */
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 283px;
+}
+
+.buttomTextCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    max-width: 240px;
+    width: 100%;
+    padding: 12px 24px;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.buttomTextCard .ant-btn {
+    padding: 0;
+}
+
+.buttomCardButtons {
+    display: flex;
+    padding: 12px 0;
+}
