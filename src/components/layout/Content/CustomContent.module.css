@@ -30,24 +30,10 @@
 .miniCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #FFF;
     max-width: 240px;
     width: 100%;
-}
-
-.textMiniCard {
-    text-align: center;
-    max-width: 240px;
-    width: 100%;
-    padding: 12px 24px;
-    border-bottom: solid 1px #F0F0F0;
-
-}
-
-.contentButton {
-    padding: 12px;
 }
 
 /* buttom */

@@ -9,6 +9,7 @@ import { Button } from 'antd';
 import s from './CustomContent.module.css';
 import 'antd/dist/antd.css';
 import { Content } from 'antd/lib/layout/layout';
+import { MiniCard } from '@components/ui';
 
 export const CustomContent: React.FC = () => {
     return (
@@ -34,46 +35,28 @@ export const CustomContent: React.FC = () => {
                     </h4>
                 </div>
                 <div className={s.cardsActions}>
-                    <div className={s.miniCard}>
-                        <h6 className={s.textMiniCard}>Расписать тренировки</h6>
-                        <div className={s.contentButton}>
-                            <Button
-                                type='link'
-                                icon={<HeartFilled />}
-                                style={{ color: 'var(--geekblue-6)' }}
-                            >
-                                Тренировки
-                            </Button>
-                        </div>
-                    </div>
-                    <div className={s.miniCard}>
-                        <h6 className={s.textMiniCard}>Назначить календарь</h6>
-                        <div className={s.contentButton}>
-                            <Button
-                                type='link'
-                                icon={
-                                    <CalendarTwoTone
-                                        twoToneColor={['var(--geekblue-6)', 'var(--geekblue-6)']}
-                                    />
-                                }
-                                style={{ color: 'var(--geekblue-6)' }}
-                            >
-                                Календарь
-                            </Button>
-                        </div>
-                    </div>
-                    <div className={s.miniCard}>
-                        <h6 className={s.textMiniCard}>Заполнить профиль</h6>
-                        <div className={s.contentButton}>
-                            <Button
-                                type='link'
-                                icon={<IdcardOutlined />}
-                                style={{ color: 'var(--geekblue-6)' }}
-                            >
-                                Профиль
-                            </Button>
-                        </div>
-                    </div>
+                    <MiniCard
+                        title='Расписать тренировки'
+                        icon={<HeartFilled />}
+                        buttonText='Тренировки'
+                        buttonColor='var(--geekblue-6)'
+                    />
+                    <MiniCard
+                        title='Назначить календарь'
+                        icon={
+                            <CalendarTwoTone
+                                twoToneColor={['var(--geekblue-6)', 'var(--geekblue-6)']}
+                            />
+                        }
+                        buttonText='Календарь'
+                        buttonColor='var(--geekblue-6)'
+                    />
+                    <MiniCard
+                        title='Заполнить профиль'
+                        icon={<IdcardOutlined />}
+                        buttonText='Профиль'
+                        buttonColor='var(--geekblue-6)'
+                    />
                 </div>
             </div>
             <div className={s.buttom}>
