@@ -29,6 +29,13 @@
 }
 
 /* adaptive */
+
+@media (max-width: 834px) {
+    h4 br {
+        display: none;
+    }
+}
+
 @media (max-width: 795px) {
     .cardsActions {
         flex-wrap: wrap;
