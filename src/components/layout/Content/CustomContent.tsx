@@ -20,8 +20,8 @@ export const CustomContent: React.FC = () => (
         <div className={s.cards}>
             <div className={s.card}>
                 <h4>
-                    CleverFit — это не просто приложение, а твой личный помощник в мире фитнеса. Не
-                    откладывай на завтра — начни тренироваться уже сегодня!
+                    CleverFit — это не просто приложение, а твой личный помощник <br /> в мире
+                    фитнеса. Не откладывай на завтра — начни тренироваться уже сегодня!
                 </h4>
             </div>
             <div className={s.cardsActions}>
