@@ -1,6 +1,5 @@
 import { CalendarTwoTone, HeartFilled, IdcardOutlined } from '@ant-design/icons';
 import s from './CustomContent.module.css';
-import 'antd/dist/antd.css';
 import { Content } from 'antd/lib/layout/layout';
 import { MiniCard } from '@components/ui';
 

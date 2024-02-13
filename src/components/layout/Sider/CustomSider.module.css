@@ -36,16 +36,21 @@
     padding: 4px 15px;
 }
 
-.iconCollapsedBackground {
+.iconCollapsed {
     position: absolute;
     right: -20px;
     top: calc(50% - 33px);
+    filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.05));
+}
+
+.iconCollapsedBackground {
     align-items: center;
     justify-content: center;
     background-color: white;
     clip-path: polygon(0 0, 97% 18%, 97% 85%, 0% 100%);
     height: 66px;
     width: 20px;
+    color: var(--gray-7);
     border-left: 1px solid #F0F0F0;
 }
 
@@ -73,11 +78,14 @@ aside {
         left: 0;
     }
 
+    .iconCollapsed {
+        top: 24px;
+        right: -31.5px;
+    }
+
     .iconCollapsedBackground {
         width: 32px;
         height: 48px;
-        top: 24px;
-        right: -31.5px;
         border-left: none;
     }
 

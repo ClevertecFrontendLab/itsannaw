@@ -1,4 +1,8 @@
 .layout {
+    display: flex;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: auto;
     background-image: url(/main-page/page_light.png);
     background-size: cover;
     background-position: center;

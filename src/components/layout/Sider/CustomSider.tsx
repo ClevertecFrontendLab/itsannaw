@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import 'antd/dist/antd.css';
 import s from './CustomSider.module.css';
 import {
     CalendarTwoTone,
@@ -84,12 +83,15 @@ export const CustomSider: React.FC = () => {
                             ]}
                         />
                     </div>
-                    <IconMenu
-                        className={`trigger ${collapsed ? 'is-collapsed' : ''} ${
-                            s.iconCollapsedBackground
-                        }`}
-                        onClick={() => setCollapsed(!collapsed)}
-                    />
+                    <span className={s.iconCollapsed}>
+                        <IconMenu
+                            className={`trigger ${collapsed ? 'is-collapsed' : ''} ${
+                                s.iconCollapsedBackground
+                            }`}
+                            data-test-id='sider-switch sider-switch-mobile'
+                            onClick={() => setCollapsed(!collapsed)}
+                        />
+                    </span>
                     <div className={s.exit}>
                         {screens.xs ? '' : <img className='' src='/icons/exit.svg' alt='exit' />}
                         {isLogoCollapsed ? '' : <span className={s.exitText}>Выход</span>}

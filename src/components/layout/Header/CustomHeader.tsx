@@ -1,6 +1,5 @@
 import { Button } from 'antd';
 import s from './CustomHeader.module.css';
-import 'antd/dist/antd.css';
 
 export const CustomHeader: React.FC = () => (
     <header className={s.header}>
