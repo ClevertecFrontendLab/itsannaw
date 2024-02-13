@@ -18,3 +18,21 @@
     align-items: center;
     gap: 8px;
 }
+
+@media (max-width: 835px) {
+    .gear {
+        display: none;
+    }
+}
+
+@media (max-width: 795px) {
+    .headerMainButtons {
+        display: none;
+    }
+}
+
+@media (min-width: 794px) {
+    .gearMobile {
+        display: none;
+    }
+}

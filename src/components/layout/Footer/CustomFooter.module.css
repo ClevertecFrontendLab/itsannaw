@@ -1,0 +1,65 @@
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 24px 24px 42px;
+}
+
+.buttom button {
+    padding: 9.5px 15px;
+}
+
+.buttomTextCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    max-width: 240px;
+    width: 100%;
+    padding: 12px 24px;
+    gap: 8px;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.buttomTextCard button {
+    padding: 0;
+}
+
+.buttomCardButtons {
+    display: flex;
+    padding: 12px 0;
+}
+
+.miniCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    max-width: 240px;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .buttom {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .miniCard {
+        max-width: 100%;
+    }
+
+    .buttomTextCard {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .buttom {
+        padding: 24px 16px 42px;
+    }
+}

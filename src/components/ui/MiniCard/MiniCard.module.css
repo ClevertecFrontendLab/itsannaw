@@ -19,3 +19,16 @@
 .contentButton {
     padding: 12px;
 }
+
+/* adaptive */
+@media (max-width: 700px) {
+    .miniCard {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .textMiniCard {
+        max-width: 100%;
+    }
+}

@@ -40,7 +40,6 @@
     position: absolute;
     right: -20px;
     top: calc(50% - 33px);
-    z-index: 1;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -48,4 +47,38 @@
     height: 66px;
     width: 20px;
     border-left: 1px solid #F0F0F0;
+}
+
+aside {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+    .logo {
+        height: 50px;
+        width: 106px;
+        left: 0;
+    }
+
+    .logoMenu {
+        align-items: center;
+        padding-top: 0;
+        gap: 16px;
+    }
+
+    aside {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+    }
+
+    .iconCollapsedBackground {
+        width: 32px;
+        height: 48px;
+        top: 24px;
+        right: -31.5px;
+        border-left: none;
+    }
+
 }

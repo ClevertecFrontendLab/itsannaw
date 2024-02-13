@@ -47,3 +47,31 @@ h6 {
     font-size: 14px;
     line-height: 18.2px;
 }
+
+/* alaptive */
+
+@media (max-width: 835px) {
+    h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.2px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    /* mobile sider */
+    .mob-menu {
+        border: 0;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    .mob-menu .ant-menu-item {
+        padding: 0 8px;
+    }
+}
