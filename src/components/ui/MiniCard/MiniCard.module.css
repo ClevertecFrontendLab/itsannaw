@@ -1,0 +1,41 @@
+.miniCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    max-width: 240px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.textMiniCard {
+    text-align: center;
+    max-width: 240px;
+    width: 100%;
+    padding: 12px 24px;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.contentButton {
+    padding: 12px;
+}
+
+/* adaptive */
+@media (max-width: 835px) {
+    .textMiniCard {
+        text-align: start;
+    }
+}
+
+@media (max-width: 700px) {
+    .miniCard {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .textMiniCard {
+        text-align: center;
+        max-width: 100%;
+    }
+}

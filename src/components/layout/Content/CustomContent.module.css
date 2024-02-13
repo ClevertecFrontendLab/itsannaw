@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 0;
+    gap: 24px;
+}
+
+.card {
+    padding: 24px;
+    background-color: #FFF;
+    max-width: 752px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.card h6 {
+    color: var(--geekblue-9);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardsActions {
+    display: flex;
+    gap: 16px;
+}
+
+/* adaptive */
+
+@media (max-width: 834px) {
+    h4 br {
+        display: none;
+    }
+}
+
+@media (max-width: 795px) {
+    .cardsActions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .content {
+        padding: 24px 16px 0;
+    }
+
+    .card {
+        padding: 16px;
+    }
+}
