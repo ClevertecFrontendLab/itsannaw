@@ -83,12 +83,12 @@ export const CustomSider: React.FC = () => {
                             ]}
                         />
                     </div>
-                    <span className={s.iconCollapsed}>
+                    <span className={s.iconCollapsed} data-test-id='sider-switch-mobile'>
                         <IconMenu
                             className={`trigger ${collapsed ? 'is-collapsed' : ''} ${
                                 s.iconCollapsedBackground
                             }`}
-                            data-test-id='sider-switch sider-switch-mobile'
+                            data-test-id='sider-switch'
                             onClick={() => setCollapsed(!collapsed)}
                         />
                     </span>
